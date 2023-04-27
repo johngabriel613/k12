@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700;800;900&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+  html{
+    font-family: 'Inter', sans-serif;
+  }
+}
+
+body{
+  @apply bg-dark;
+}
+
+:root {
+  --animate-delay: 0.5s;
+}
+
+/*Box Shadow*/
+.b-shadow{
+  box-shadow: rgba(97, 97, 97, 0.05) 0px 6px 24px 0px, rgba(255, 255, 255, 0.08) 0px 0px 0px 1px;
+}
+
+/*Call to Action*/
+.call-to-action{
+  @apply bg-primary py-2 px-4 rounded-md;
+}
+
+/*Bulb Animation*/
+.animate{
+  animation: updown 2s infinite alternate;
+}
+
+@keyframes updown{
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-20px); }
+}
+
+.swiper > .swiper-wrapper{
+  -webkit-transition-timing-function:linear!important;
+  -o-transition-timing-function:linear!important;
+  transition-timing-function:linear!important;
+}
+
+input[type="radio"]{
+  appearance: none;
+  margin: 0;
+  font: inherit;
+  color: currentColor;
+  width: 1.15em;
+  height: 1.15em;
+  border: 0.15em solid currentColor;
+  border-radius: 50%;
+  display: grid;
+  place-content: center;
+}
+
+input[type="radio"]:nth-child(1),input[type="radio"]:nth-child(5){
+  width: 1.55rem;
+  height: 1.55rem;
+}
+
+input[type="radio"]:nth-child(2),input[type="radio"]:nth-child(4){
+  width: 1.35rem;
+  height: 1.35rem;
+}
+
+input[type="radio"]:nth-child(1)::before,input[type="radio"]:nth-child(5)::before{
+  width: 1.05rem;
+  height: 1.05rem;
+}
+
+input[type="radio"]:nth-child(2)::before,input[type="radio"]:nth-child(4)::before{
+  width: 0.85rem;
+  height: 0.85rem;
+}
+
+
+
+input[type="radio"]::before {
+  content: "";
+  width: 0.65em;
+  height: 0.65em;
+  border-radius: 50%;
+  transform: scale(0);
+  transition: 120ms transform ease-in-out;
+  box-shadow: inset 1em 1em #ef4280;
+}
+
+input[type="radio"]:checked::before {
+  transform: scale(.8);
+}
+
+
+
