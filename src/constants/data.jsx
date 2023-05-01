@@ -1,3 +1,6 @@
+export const surveyForm = {
+  'link': "https://docs.google.com/forms/d/e/1FAIpQLSfwwv5UA1hD8VEOkpz0FPLJ7Ba9xhM7dDF8EvwdbtnO_6eN5A/viewform?usp=sf_link"
+}
 
 export const questions = [
   {

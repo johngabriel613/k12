@@ -14,7 +14,7 @@ const HomePage = () => {
   return (
     <div className='flex flex-col-reverse justify-between items-center gap-3 md:flex-row'>
       <div className='grid gap-4 max-w-xl'>
-        <h1 className='animate__animated animate__fadeInUp text-3xl font-black drop-shadow-md md:text-5xl'>WHAT <span className='text-primary '>K-12 STRAND</span> SUITS YOU THE MOST?</h1>
+        <h1 className='animate__animated animate__fadeInUp text-3xl font-black md:leading-tight md:text-5xl'>WHAT <span className='text-primary '>K-12 STRAND</span> SUITS YOU THE MOST?</h1>
         <p className='animate__animated animate__fadeInUp animate__delay-1s text-[.9rem] text-secondary md:text-base'>Your future, your choice: Let us help you find the K-12 strand that's perfect for you!</p>
         <ul className='animate__animated animate__fadeInUp animate__delay-2s flex gap-4 items-center'>
           <li className='flex'><Link to='test' className='call-to-action'>Get Started {penIcon}</Link></li>

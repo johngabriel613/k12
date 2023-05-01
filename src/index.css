@@ -12,7 +12,7 @@
 }
 
 body{
-  @apply bg-dark;
+  @apply bg-light;
 }
 
 :root {
@@ -21,12 +21,12 @@ body{
 
 /*Box Shadow*/
 .b-shadow{
-  box-shadow: rgba(97, 97, 97, 0.05) 0px 6px 24px 0px, rgba(255, 255, 255, 0.08) 0px 0px 0px 1px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
 }
 
 /*Call to Action*/
 .call-to-action{
-  @apply bg-primary py-2 px-4 rounded-md;
+  @apply bg-primary py-2 px-4 rounded-md text-white;
 }
 
 /*Bulb Animation*/

@@ -92,14 +92,14 @@ const TestPage = () => {
   if(!result){
     return (
       <div className='max-w-[450px] mx-auto grid gap-6'>
-        <div className='grid gap-3'>
-          <p>Read carefully, choose the response that best reflects your opinion, and be honest with your answers.</p>
-          <div className='grid gap-2'>
+        <div className='grid gap-2'>
+            <div className='flex gap-3 items-center'>
+            <p>Read carefully, choose the response that best reflects your opinion, and be honest with your answers.</p>
             <p className='text-right'><span className='text-primary text-4xl'>{currentIndex + 1}</span>/5</p>
-            <div className='progress rounded-full w-full h-[5px] bg-[#2c2c2c]'>
+            </div>
+            <div className='progress rounded-full w-full h-[5px] bg-secondary'>
               <div className={`h-[5px] rounded-full bg-primary`} style={{ width: `${((currentIndex + 1)/5)*100}%` }}></div>
             </div>
-          </div>
         </div>
         {questions.map((question, index) => {
           const shuffledQuestions = [...question.listOfQuestions];

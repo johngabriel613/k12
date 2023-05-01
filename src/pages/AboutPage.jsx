@@ -38,17 +38,17 @@ const AboutPage = () => {
       autoplay={{delay:'-1', disableOnInteraction:false}}
       speed={3500}
       className='swiper py-4'>
-        <SwiperSlide className='text-3xl md:text-6xl whitespace-nowrap font-black text-slate-300 w-fit'>•Jayson Caluag</SwiperSlide>
-        <SwiperSlide className='text-3xl md:text-6xl whitespace-nowrap font-black text-slate-300 w-fit'>•John Emmanuel Manlapig</SwiperSlide>
-        <SwiperSlide className='text-3xl md:text-6xl whitespace-nowrap font-black text-slate-300 w-fit'>•Ericson Isaiah Añasco</SwiperSlide>
-        <SwiperSlide className='text-3xl md:text-6xl whitespace-nowrap font-black text-slate-300 w-fit'>•Anne Nicole Calamba</SwiperSlide>
-        <SwiperSlide className='text-3xl md:text-6xl whitespace-nowrap font-black text-slate-300 w-fit'>•Trisha Nelle Fundano</SwiperSlide>
-        <SwiperSlide className='text-3xl md:text-6xl whitespace-nowrap font-black text-slate-300 w-fit'>•Sean Andrei Mahinay</SwiperSlide>
-        <SwiperSlide className='text-3xl md:text-6xl whitespace-nowrap font-black text-slate-300 w-fit'>•Nathaniel Joshua Limano</SwiperSlide>
-        <SwiperSlide className='text-3xl md:text-6xl whitespace-nowrap font-black text-slate-300 w-fit'>•Alexandra Cabildo</SwiperSlide>
-        <SwiperSlide className='text-3xl md:text-6xl whitespace-nowrap font-black text-slate-300 w-fit'>•Donna Belle Madla</SwiperSlide>
-        <SwiperSlide className='text-3xl md:text-6xl whitespace-nowrap font-black text-slate-300 w-fit'>•Rovilyn Dela Cruz</SwiperSlide>
-        <SwiperSlide className='text-3xl md:text-6xl whitespace-nowrap font-black text-slate-300 w-fit'>•Rodith Mae Zabala</SwiperSlide>
+        <SwiperSlide className='text-3xl md:text-6xl whitespace-nowrap font-black text-slate-500 w-fit'>•Jayson Caluag</SwiperSlide>
+        <SwiperSlide className='text-3xl md:text-6xl whitespace-nowrap font-black text-slate-500 w-fit'>•John Emmanuel Manlapig</SwiperSlide>
+        <SwiperSlide className='text-3xl md:text-6xl whitespace-nowrap font-black text-slate-500 w-fit'>•Ericson Isaiah Añasco</SwiperSlide>
+        <SwiperSlide className='text-3xl md:text-6xl whitespace-nowrap font-black text-slate-500 w-fit'>•Anne Nicole Calamba</SwiperSlide>
+        <SwiperSlide className='text-3xl md:text-6xl whitespace-nowrap font-black text-slate-500 w-fit'>•Trisha Nelle Fundano</SwiperSlide>
+        <SwiperSlide className='text-3xl md:text-6xl whitespace-nowrap font-black text-slate-500 w-fit'>•Sean Andrei Mahinay</SwiperSlide>
+        <SwiperSlide className='text-3xl md:text-6xl whitespace-nowrap font-black text-slate-500 w-fit'>•Nathaniel Joshua Limano</SwiperSlide>
+        <SwiperSlide className='text-3xl md:text-6xl whitespace-nowrap font-black text-slate-500 w-fit'>•Alexandra Cabildo</SwiperSlide>
+        <SwiperSlide className='text-3xl md:text-6xl whitespace-nowrap font-black text-slate-500 w-fit'>•Donna Belle Madla</SwiperSlide>
+        <SwiperSlide className='text-3xl md:text-6xl whitespace-nowrap font-black text-slate-500 w-fit'>•Rovilyn Dela Cruz</SwiperSlide>
+        <SwiperSlide className='text-3xl md:text-6xl whitespace-nowrap font-black text-slate-500 w-fit'>•Rodith Mae Zabala</SwiperSlide>
       </Swiper>
 
     </div>
