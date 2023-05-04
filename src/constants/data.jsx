@@ -97,3 +97,33 @@ export const scales = [
     'text': 'Strongly Agree'
   },
 ]
+
+
+export const members = [
+  "Jayson Caluag",
+  "John Emmanuel Manlapig",
+  "Ericson Isaiah Añasco",
+  "Anne Nicole Calamba",
+  "Trisha Nelle Fundano",
+  "Sean Andrei Mahinay",
+  "Nathaniel Joshua Limano",
+  "Alexandra Cabildo",
+  "Donna Belle Madla",
+  "Rovilyn Dela Cruz",
+  "Rodith Mae Zabala",
+];
+
+
+export const contributors = [
+  "Shekinah Krystal Cayanan",
+  "Maria Rykim Casimiro",
+  "Johan Walter Christian Castillo",
+  "Patrick Froilan Del Ayre",
+  "Rafflesia Gregorio",
+  "Khristine Javier",
+  "Charina May Lora",
+  "Johnleoj Perez",
+  "Jacoben Ravelo",
+  "Jonald Vicente",
+  "Clowie Jierey Zablan",
+];

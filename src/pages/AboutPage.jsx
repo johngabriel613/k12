@@ -1,7 +1,5 @@
 import React from 'react'
-// Import Swiper React components
-import { Swiper, SwiperSlide } from 'swiper/react';
-import { Autoplay, FreeMode } from 'swiper';
+import NameSlider from '../components/NameSlider';
 
 // Import Swiper styles
 import 'swiper/css';
@@ -27,30 +25,17 @@ const AboutPage = () => {
         So, what are you waiting for? Let's get started on this exciting journey of discovering your ideal K-12 strand!
         </p>
       </div>
-      <div className='text-center mb-6'>
+      <div className='text-center mb-3'>
         <h2 className='text-3xl text-primary font-bold'>OUR TEAM</h2>
         <p className='text-secondary'>Members</p>
       </div>
-      <Swiper modules={[Autoplay, FreeMode]} 
-      slidesPerView={'auto'}
-      freeMode={true}
-      loop={true}
-      autoplay={{delay:'-1', disableOnInteraction:false}}
-      speed={3500}
-      className='swiper py-4'>
-        <SwiperSlide className='text-3xl md:text-6xl whitespace-nowrap font-black text-slate-500 w-fit'>•Jayson Caluag</SwiperSlide>
-        <SwiperSlide className='text-3xl md:text-6xl whitespace-nowrap font-black text-slate-500 w-fit'>•John Emmanuel Manlapig</SwiperSlide>
-        <SwiperSlide className='text-3xl md:text-6xl whitespace-nowrap font-black text-slate-500 w-fit'>•Ericson Isaiah Añasco</SwiperSlide>
-        <SwiperSlide className='text-3xl md:text-6xl whitespace-nowrap font-black text-slate-500 w-fit'>•Anne Nicole Calamba</SwiperSlide>
-        <SwiperSlide className='text-3xl md:text-6xl whitespace-nowrap font-black text-slate-500 w-fit'>•Trisha Nelle Fundano</SwiperSlide>
-        <SwiperSlide className='text-3xl md:text-6xl whitespace-nowrap font-black text-slate-500 w-fit'>•Sean Andrei Mahinay</SwiperSlide>
-        <SwiperSlide className='text-3xl md:text-6xl whitespace-nowrap font-black text-slate-500 w-fit'>•Nathaniel Joshua Limano</SwiperSlide>
-        <SwiperSlide className='text-3xl md:text-6xl whitespace-nowrap font-black text-slate-500 w-fit'>•Alexandra Cabildo</SwiperSlide>
-        <SwiperSlide className='text-3xl md:text-6xl whitespace-nowrap font-black text-slate-500 w-fit'>•Donna Belle Madla</SwiperSlide>
-        <SwiperSlide className='text-3xl md:text-6xl whitespace-nowrap font-black text-slate-500 w-fit'>•Rovilyn Dela Cruz</SwiperSlide>
-        <SwiperSlide className='text-3xl md:text-6xl whitespace-nowrap font-black text-slate-500 w-fit'>•Rodith Mae Zabala</SwiperSlide>
-      </Swiper>
-
+      <NameSlider names={members} option={false}/>
+      
+      <div className='text-center mb-3'>
+        <h2 className='text-3xl text-primary font-bold'>CONTRIBUTORS</h2>
+        <p className='text-secondary'>Acknowledgement</p>
+      </div>
+      <NameSlider names={contributors} option={true}/>
     </div>
   )
 }
