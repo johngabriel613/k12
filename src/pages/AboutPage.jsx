@@ -1,5 +1,6 @@
 import React from 'react'
 import NameSlider from '../components/NameSlider';
+import { members, contributors } from '../constants/data';
 
 // Import Swiper styles
 import 'swiper/css';
